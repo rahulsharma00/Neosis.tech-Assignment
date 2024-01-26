@@ -1,3 +1,5 @@
+**Note:** - For your convenience, I have provided the code in two different file formats - a Python script (.py) and a Jupyter Notebook (.ipynb). Feel free to use either of the files based on your preference or convenience. Both files contain identical content, and you can choose the format that suits your workflow best.
+
 ## Sentiment Analysis with LSTM
 Sentiment analysis involves determining the sentiment or emotional tone expressed in a piece of text, typically categorized as positive, negative, or neutral. In this assignment, 
 the task is to perform sentiment analysis using Long Short-Term Memory (LSTM) networks, a type of recurrent neural network (RNN)
