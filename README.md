@@ -38,10 +38,10 @@ Loss: 0.35
 Accuracy: 84.10% <br>
 Loss: 0.42
 
-Total Predictions: 25000 <br>
-Correct Predictions: 20752 <br>
-Incorrect Predictions: 4248
-
 ## Model Performance On Test Dataset
 Accuracy: 83.00% <br>
 Loss: 0.43
+
+Total Predictions: 25000 <br>
+Correct Predictions: 20752 <br>
+Incorrect Predictions: 4248
