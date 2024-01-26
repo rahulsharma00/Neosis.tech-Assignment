@@ -22,13 +22,14 @@ To expedite the demonstration and showcase the key functionalities, we have incl
 
 ## Code Execution 
 The following steps were performed:
-1. Data Preprocessing
-2. Tokenization and Padding
-3. Lable Encoding
-4. LSTM Model Architecture
-5. Model Training
-6. Model Evaluation
-7. Model Evaluation
+1. `Data Preprocessing` - The reviews were tokenized, converted to lowercase, and stop words were removed. The processed data was then split into training and testing sets.
+2. `Tokenization and Padding` - The text data was tokenized using the Keras Tokenizer, and sequences were padded to ensure consistent input dimensions for the LSTM model.
+3. `Lable Encoding` - This was used to convert categorical labels into numerical format,
+4. `LSTM Model Architecture` - The LSTM model was constructed using Keras. It consists of an Embedding layer, SpatialDropout1D layer, LSTM layer, and a Dense layer with a sigmoid 
+    activation function for binary classification.
+5. `Model Training` - The model was trained on the training set using binary crossentropy loss and the Adam optimizer. The training process involved five epochs.
+6. `Model Evaluation` - The model was evaluated on both the training and test sets to assess its performance. The accuracy and loss metrics were calculated, and predictions were made on the test set.
+7. `Confusion Matrix and Classification Report` - The confusion matrix and classification report were generated using scikit-learn to provide insights into the model's performance, including precision, recall, and F1-score.
 
 ## Model Performance On Training Dataset
 Accuracy: 87.45% <br>
@@ -45,3 +46,6 @@ Loss: 0.43
 Total Predictions: 25000 <br>
 Correct Predictions: 20752 <br>
 Incorrect Predictions: 4248
+
+## Classification Report
+The classification report summarizes the model's performance on a new test set, indicating precision, recall, and F1-score for positive (1) and negative (0) sentiments. With an accuracy of 83%, the model demonstrates balanced effectiveness in sentiment analysis, achieving strong precision, recall, and F1-score for both sentiment classes.
